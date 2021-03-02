@@ -1,0 +1,27 @@
+body {
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#step1 {
+    border:teal solid 2px;
+    background-color: rgb(5, 170, 170);
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    color:turquoise;
+    padding: 10px 20px;
+    margin-bottom: 7px;
+}
+
+#step2 {
+    width: 85%;
+    max-width: 900px;
+    border:teal solid 2px;
+    color:turquoise;
+    margin: auto;
+    padding: 10px;
+    background-color:rgb(5, 170, 170);
+    border-radius: 10px;
+}
