@@ -25,3 +25,39 @@ body {
     background-color:rgb(5, 170, 170);
     border-radius: 10px;
 }
+
+#step3 {
+    border: 2px teal solid;
+    padding: 10px;
+    background-color: turquoise;
+    color: teal;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.accordion {
+    background-color: rgb(62, 219, 219);
+    color:rgb(13, 95, 95);
+    cursor: pointer;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    outline: none;
+    font-size: 17px;
+    transition: 0.8s;
+    border: rgb(10, 158, 158) solid 1.8px;
+    border-radius: 8px;
+    margin-bottom: 7px;
+}
+
+.active, .accordion:hover{
+    background-color:rgb(51, 192, 192);
+}
+
+.panel {
+    padding: 0 18px;
+    /*display: none;*/
+    background-color: cyan;
+    /*overflow: hidden;*/
+}
