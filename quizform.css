@@ -1,63 +1,72 @@
 body {
-    background-color: cadetblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 325;
+
 }
 
 #step1 {
-    border:teal solid 2px;
-    background-color: rgb(5, 170, 170);
-    width: 85%;
-    margin: auto;
+    border:rgb(5, 21, 255) inset 5px;
     border-radius: 5px;
-    text-align: center;
-    color:turquoise;
-    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(5, 21, 255);
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
     margin-bottom: 7px;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 #step2 {
+    border: rgb(5, 255, 255) inset 5px;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(5, 255, 255);
     width: 85%;
     max-width: 900px;
-    border:teal solid 2px;
-    color:turquoise;
     margin: auto;
-    padding: 10px;
-    background-color:rgb(5, 170, 170);
-    border-radius: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+    padding: 10px 20px;
 }
 
 #step3 {
-    border: 2px teal solid;
-    padding: 10px;
-    background-color: turquoise;
-    color: teal;
-    border-radius: 10px;
+    border: rgb(255, 137, 2) inset 5px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 137, 2);
+    width: 85%;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 7px;
     text-align: center;
-    
+    padding: 10px 20px; 
 }
 
 .accordion {
-    background-color: rgb(62, 219, 219);
-    color:rgb(13, 95, 95);
-    cursor: pointer;
-    padding: 10px;
-    width: 75%;
-    text-align: center;
-    outline: none;
-    font-size: 17px;
-    transition: 0.8s;
-    border: rgb(10, 158, 158) solid 1.8px;
+    border: rgb(255, 137, 2) solid 2.2px;
     border-radius: 8px;
+    background-color: rgb(255, 137, 2);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 17px;
+    width: 75%;
     margin-bottom: 7px;
+    outline: none;
+    transition: 0.8s;
+    text-align: center;
+    padding: 10px;
 }
 
 .active, .accordion:hover{
-    background-color:rgb(51, 192, 192);
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 137, 2);
 }
 
 .panel {
     padding: 0 18px;
     /*display: none;*/
-    background-color: cyan;
+    background-color: rgb(5, 21, 255);
     /*overflow: hidden;*/
 }
